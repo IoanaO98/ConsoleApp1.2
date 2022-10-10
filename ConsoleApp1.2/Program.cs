@@ -66,6 +66,14 @@ namespace Exercitii
                 Console.WriteLine(item);
         }
 
+        static void sentencelength(string[] args)
+        {
+            //2. Write a program in C# Sharp to find the length of a string without using library function
+
+            string sentence = "Ioana are mere";
+
+            Console.WriteLine($"The sentence {sentence} has the {sentence.Length} letters ");
+        }
     }
 
 }
