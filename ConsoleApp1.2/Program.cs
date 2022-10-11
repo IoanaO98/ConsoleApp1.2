@@ -70,7 +70,7 @@ namespace Exercitii
         {
             //2. Write a program in C# Sharp to find the length of a string without using library function
 
-            string sentence = "Ioana are mere";
+            string sentence = "Maria are mere";
 
             Console.WriteLine($"The sentence {sentence} has the {sentence.Length} letters ");
         }
