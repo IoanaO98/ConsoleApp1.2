@@ -66,11 +66,17 @@ namespace Exercitii
             foreach (var item in fibonacciNumbers)
                 Console.WriteLine(item);
             //8
-            string sentence = "Maria are mere";
 
-            Console.WriteLine($"The sentence {sentence} has the {sentence.Length} letters ");
             string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
             fibonaciiNumbers(cars);
+           
+
+            string[] ceva = { "1", "2", "3" };
+            sentencelength(ceva);
+
+            string[] nume = { "Ioana", "Paula", "Bunica" };
+            enterName(nume);
+
             Console.ReadLine();
         }
 
@@ -87,7 +93,7 @@ namespace Exercitii
                 Console.WriteLine(item);
         }
 
-        static void sentencelength(int[] args)
+        static void sentencelength(string[] args)
 
         {
             //2. Write a program in C# Sharp to find the length of a string without using library function
@@ -97,7 +103,13 @@ namespace Exercitii
             Console.WriteLine($"The sentence {sentence} has the {sentence.Length} letters ");
             Console.ReadLine();
         }
+        static void enterName(string[] args)
+        {
+            Console.WriteLine("Enter your name: ");
+            string name  = Console.ReadLine();
+            Console.WriteLine("hello " + name);
 
+        }
 
     }
 
