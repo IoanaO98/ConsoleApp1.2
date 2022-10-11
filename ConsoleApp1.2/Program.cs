@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Exercitii
-{
+{ }
     internal class Program
     {
         static void Main(string[] args)
@@ -77,6 +77,9 @@ namespace Exercitii
             string[] nume = { "Ioana", "Paula", "Bunica" };
             enterName(nume);
 
+            string[] numere = { "1", "2", "3" };
+            convers(numere);
+
             Console.ReadLine();
         }
 
@@ -107,12 +110,16 @@ namespace Exercitii
         {
             Console.WriteLine("Enter your name: ");
             string name  = Console.ReadLine();
-            Console.WriteLine("hello " + name);
-
+            Console.WriteLine("Enter your age: ");
+            string age = Console.ReadLine();
+            Console.WriteLine("Hello " + name + " you are " + age);
+         
         }
-
+        static void convers(string[] args)
+        {
+        int num = Convert.ToInt32("ndja");
+        Console.WriteLine(num + 6);
+        }
     }
-
-}
 
 
