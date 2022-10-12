@@ -133,7 +133,11 @@ internal class Program
         Console.WriteLine(num3 + num4);
         Console.ReadLine();
     }
+        static void MadLid(string[] args);
+       
+
     
+
 }   
 
-
+}
